@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body style="background-color: green;">
+    <h2>Datos de Envio</h2>
+    <form action="link" method="post" target="_blank">
+
+        <fieldset>
+            <legend>Encomienda</legend>
+        <label for="ENVIAR">Como queres enviar</label>
+        <select name="ENVIAR">
+            <option >Retiro en domicilio</option>
+            <option >Retiro en agencia</option>
+        </select>
+        <label for="name">Codigo Postal retiro</label>
+        <input type="text" id="name" name="name" size="10" placeholder="Ingrese su C.P. aquí...">
+        <label for="name">Codigo Postal envio</label>
+        <input type="text" id="name" name="name" size="10" placeholder="Ingrese su C.P. aquí..."><br><br>
+        <label for="ENVIAR">Describi tu envio</label><br><br>
+        <label for="ENVIAR">BULTOS</label><br><br>
+        <label for="number">Cantidad:</label>
+        <input type="number" name="number" id="number" max="99" aria-setsize="3">
+        <label for="number">Peso (Max 50 kg):</label>
+        <input type="number" name="number" id="number" max="50" aria-setsize="3">
+        <label for="number">Alto (cm):</label>
+        <input type="number" name="number" id="number" max="99" aria-setsize="3"><br><br>
+        <label for="number">Ancho (cm):</label>
+        <input type="number" name="number" id="number" max="99" aria-setsize="3">
+        <label for="number">Profundidad (cm):</label>
+        <input type="number" name="number" id="number" max="50" aria-setsize="3">
+        <label for="number">Valor Declarado ($):</label>
+        <input type="number" name="number" id="number" max="99" aria-setsize="3"><br><br>
+        <p>Seleccione forma de Pago</p>
+        <input type="radio" name="pago" value="origen"checkbox>Origen
+        <input type="radio" name="pago" value="destino"checkbox>Destino
+        </fieldset><br><br>
+        <input type="submit" value="ENVIAR">
+    </form>
+</body>
+</html>
