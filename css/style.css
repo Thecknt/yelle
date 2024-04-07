@@ -3,7 +3,8 @@ body {
     font-size: 16px;
     line-height: 1.5;
     font-weight: 400;
-    color: #666666;
+    color: #211e1e;
+    background-color:#f1f1f1;
 }
 
 .container {
@@ -20,6 +21,7 @@ body {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     padding: 0;
     position: fixed;
+    height: 85px;
     top: 0;
     left: 0;
     width: 100%;
@@ -64,6 +66,14 @@ body {
     margin-left: -15px;
 }
 
+.titleWord{
+    font-size: 24px;
+    font-weight: bold;
+    color: 333333;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
 .title img {
     width: 50px;
     height: 50px;
@@ -73,7 +83,7 @@ body {
 }
 
 .section {
-    padding: 80px 0;
+    padding: 10px 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -81,8 +91,10 @@ body {
 }
 
 .section-text {
-    max-width: 50%;
+    max-width: 46%;
     margin-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .section-text h1 {
@@ -140,6 +152,78 @@ body {
 .section-img img {
     width: 100%;
     border-radius: 5px;
+}
+
+.features {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	padding: 20px;
+    background-image: url(/images/2319.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.feature {
+	flex-basis: calc(33.33% - 20px);
+	margin-bottom: 20px;
+	background-color: #f1f1f1;
+	padding: 20px;
+	text-align: center;
+	border-radius: 5px;
+
+	img {
+		width: 60px;
+		margin-bottom: 20px;
+	}
+
+	h2 {
+		font-size: 24px;
+		margin-bottom: 10px;
+	}
+
+	p {
+		font-size: 16px;
+		margin-bottom: 20px;
+	}
+}
+
+.testimonials {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 75%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.testimonial {
+	flex-basis: calc(50% - 10px);
+	margin-bottom: 20px;
+	background-color: #fff;
+	padding: 20px;
+	text-align: left;
+	border-radius: 9px;
+	box-shadow: 0 3px 12px rgba(0, 0, 0, 2.1);
+    margin: 8px;
+
+	img {
+		width: 60px;
+		margin-right: 20px;
+		vertical-align: middle;
+	}
+
+	p {
+		font-size: 16px;
+		margin-bottom: 20px;
+	}
+
+	h3 {
+		font-size: 20px;
+		margin-bottom: 0;
+	}
 }
 
 .footer {
