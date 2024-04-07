@@ -188,6 +188,47 @@ body {
 	}
 }
 
+.costs-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 50px 0;
+  }
+  
+  .card {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 30px;
+    text-align: center;
+    width: calc(33.333% - 40px);
+  }
+  
+  .card-content {
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 10px;
+    padding: 20px;
+  }
+  
+  .card i {
+    color: #007bff;
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .card h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .card p {
+    font-size: 16px;
+    margin-bottom: 0;
+  }
+
 .testimonials {
     background-color: #f1f1f1;
     padding: 20px;
@@ -226,40 +267,38 @@ body {
 	}
 }
 
-.footer {
+footer {
     background-color: #07dc3c;
-    padding: 20px 0;
-    text-align: center;
-    display: flex;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    box-sizing: border-box;
-}
-
-.footer a {
-    color: #333333;
+    color: #211e1e;
+    padding: 20px;
+    font-weight: bold;
+  }
+  
+  footer p {
+    margin-bottom: 0;
+  }
+  
+  footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  footer li {
+    display: inline-block;
+    margin-right: 8px;
+  }
+  
+  footer a {
+    color: #fff;
     text-decoration: none;
-    margin-right: 20px;
-    font-size: 20px;
-    transition: color 0.3s ease;
-}
-
-.footer a:hover {
-    color: #f4f4f4;
-}
-
-.footer svg {
-    width: 20px;
-    height: 20px;
-    margin-right: 10px;
-    transition: fill 0.3s ease;
-}
-
-.footer svg:hover {
-    fill: #e9efec;
-}
+    font-size: 2rem;
+    margin: 0 10px;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
 
 @media (max-width: 768px) {
 
