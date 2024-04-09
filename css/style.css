@@ -86,7 +86,7 @@ body {
     padding: 10px 0;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
@@ -300,6 +300,57 @@ footer {
     text-decoration: underline;
   }
 
+  @media (max-width: 1023px) {
+
+    .menu-icon {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 10px;
+        cursor: pointer;
+        font-size: 24px;
+    }
+
+    nav {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background: #07dc3c;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        flex-direction: column;
+    }
+
+    nav a {
+        margin-bottom: 10px;
+    }
+
+    .section {
+        flex-direction: column;
+    }
+
+    .section-text,
+    .section-img {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .section-btn {
+        max-width: 100%;
+    }
+
+    .footer {
+        flex-direction: column;
+      }
+    
+      .footer a {
+        margin: 10px 0;
+      }
+}
+
 @media (max-width: 768px) {
 
     .menu-icon {
@@ -340,6 +391,73 @@ footer {
 
     .section-btn {
         max-width: 100%;
+    }
+
+    .footer {
+        flex-direction: column;
+      }
+    
+      .footer a {
+        margin: 10px 0;
+      }
+}
+
+@media (max-width: 569px) {
+
+    .menu-icon {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 10px;
+        cursor: pointer;
+        font-size: 24px;
+    }
+
+    nav {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background: #07dc3c;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        flex-direction: column;
+    }
+
+    nav a {
+        margin-bottom: 10px;
+    }
+
+    .section {
+        flex-direction: column;
+    }
+
+    .features {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+
+    .card{
+        width: calc(60.333% - 40px);
+    }
+
+    .section-text,
+    .section-img {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .section-btn {
+        max-width: 100%;
+    }
+
+    .testimonials{
+        flex-direction: column;
+        align-items: center;
     }
 
     .footer {
