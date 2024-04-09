@@ -5,74 +5,134 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Envia tus Packetes a cualquier destino</title>
     <link rel="stylesheet" href="/css/style.css">
-    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
 </head>
 <body>
-    <header class="text-gray-600 body-font nav">
-        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-          <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0" href="index.html">
-            <img src="/images/paquete.png" alt="Icono" class="w-20 h-20 text-white p-2 rounded-full">
-            <span class="ml-3 text-xl">ye-LLe</span>
-          </a>
-          <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
-            <a class="mr-5 hover:text-gray-900">Inicio</a>
-            <a class="mr-5 hover:text-gray-900" href="form registro.html">Envia tus packetes</a>
-            <a class="mr-5 hover:text-gray-900" href="form encomienda.html">Quienes somos</a>
-            <a class="mr-5 hover:text-gray-900">Contactanos</a>
-          </nav>
+  <header class="nav">
+    <div class="title">
+        <a href="index.html"><img src="/images/paquete.png" alt="Icono"></a>  
+        <h1 class="titleWord">Ye-LLe</h1>
+    </div>
+    <input type="checkbox" id="menu-toggle">
+    <label for="menu-toggle" class="menu-icon">&#9776;</label>
+    <nav>
+        <a href="/index.html">Inicio</a>
+        <a href="/formEncomienda.html">Envia tus packetes</a>
+        <a href="/about.html">Quienes somos</a>
+        <a href="/formRegistro.html">Contactanos</a>
+    </nav>
+</header>
+<section class="section">
+    <div class="section-text">
+        <h1>Con Ye-LLe...<br>
+            Ni Yendo ni llegando, ya estamos con vos
+        </h1>
+        <p>Envía tus paquetes de manera rápida y segura con nuestro servicio de envíos. Desde documentos importantes hasta grandes cargamentos, nos encargamos de llevar tus artículos a su destino con eficiencia y cuidado. ¡Descubre cómo podemos facilitar tus envíos hoy mismo!</p>
+        <div class="section-btn">
+            <a href="/formEncomienda.html" class="section-btn-link">Envia hoy!</a>
         </div>
-      </header>
-      <section class="text-gray-600 body-font">
-        <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
-          <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-            <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Con Ye-LLe...
-              <br class="hidden lg:inline-block">Ni Yendo ni llegando, ya estamos con vos
-            </h1>
-            <p class="mb-8 leading-relaxed">Envía tus paquetes de manera rápida y segura con nuestro servicio de envíos. Desde documentos importantes hasta grandes cargamentos, nos encargamos de llevar tus artículos a su destino con eficiencia y cuidado. ¡Descubre cómo podemos facilitar tus envíos hoy mismo!</p>
-            <div class="flex justify-center">
-              <button class="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">Envia Hoy!</button>
-             
-            </div>
+    </div>
+    <div class="section-img">
+        <img src="/images/repartidor.jpg" alt="Imagen de repartidor">
+    </div>
+</section>
+
+<section class="features">
+    <div class="feature">
+        <img src="/images/tracking.png" alt="Tracking">
+        <h2>Tracking</h2>
+        <p>En tiempo real rastreamos tus paquetes, desde el retiro hasta la entrega.</p>
+    </div>
+    <div class="feature">
+        <img src="/images/insurance.png" alt="Insurance">
+        <h2>Insurance</h2>
+        <p>Protege tus envios con comodas opciones de seguros adicionales.</p>
+    </div>
+    <div class="feature">
+        <img src="images/options.png" alt="Options">
+        <h2>Multiple Shipping Options</h2>
+        <p>Selecciona sobre una gran variedad de tipos de envios que se adapten a tus necesidades.</p>
+    </div>
+</section>
+
+<section class="costs-container">
+        <div class="card" style="background-image: url('/images/auto.jpg');">
+          <div class="card-content">
+            <i class="fas fa-car"></i>
+            <h2>Auto</h2>
+            <p>$1000 - $2000</p>
+            <p>Ideal para paquetes de tamaño medio y entrega rápida.</p>
           </div>
-          <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-            <img class="object-cover object-center rounded" alt="hero" src="/images/repartidor.jpg">
+        </div>
+        <div class="card" style="background-image: url('/images/moto.jpg');">
+          <div class="card-content">
+            <i class="fas fa-motorcycle"></i>
+            <h2>Moto</h2>
+            <p>$500 - $1000</p>
+            <p>Ideal para paquetes pequeños/medianos y entregas rápidas.</p>
           </div>
         </div>
-      </section>
-      <footer class="text-gray-600 body-font footer">
-        <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
-          <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
-            <img src="/images/paquete.png" alt="Icono" class="w-20 h-20 text-white p-2 rounded-full">
-            <span class="ml-3 text-xl">Ye-LLe</span>
-          </a>
-          <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4"> —
-            <a class="text-gray-600 ml-1" rel="noopener noreferrer" target="_blank">Confia en Nosotros</a>
-          </p>
-          <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
-            <a class="text-gray-500">
-              <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-                <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
-              </svg>
-            </a>
-            <a class="ml-3 text-gray-500">
-              <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-                <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
-              </svg>
-            </a>
-            <a class="ml-3 text-gray-500">
-              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-                <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
-                <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
-              </svg>
-            </a>
-            <a class="ml-3 text-gray-500">
-              <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
-                <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
-                <circle cx="4" cy="4" r="2" stroke="none"></circle>
-              </svg>
-            </a>
-          </span>
+        <div class="card" style="background-image: url('/images/combi.jpg');">
+          <div class="card-content">
+            <i class="fas fa-bus"></i>
+            <h2>Combi</h2>
+            <p>$2000 - $3000</p>
+            <p>Ideal para paquetes medianos/grandes y entregas en zonas remotas.</p>
+          </div>
         </div>
-      </footer>
+        <div class="card" style="background-image: url('/images/Camion.jpg');">
+          <div class="card-content">
+            <i class="fas fa-truck"></i>
+            <h2>Camión</h2>
+            <p>$3000 - $5000</p>
+            <p>Ideal para paquetes muy grandes y entregas en zonas remotas.</p>
+          </div>
+        </div>
+        <div class="card" style="background-image: url('/images/avion.jpg');">
+          <div class="card-content">
+            <i class="fas fa-plane"></i>
+            <h2>Avión</h2>
+            <p>$5000 - $10000</p>
+            <p>Ideal para entregas urgentes y envíos internacionales.</p>
+          </div>
+        </div>
+</section>      
+  
+<section class="testimonials">
+    <div class="testimonial">
+        <img src="/images/testimonial.png" alt="Avatar">
+        <p>"Llevo años utilizando esta paquetería y nunca he tenido ningún problema. Su servicio es rápido, fiable y asequible."</p>
+        <h3>Mario Castañeda</h3>
+    </div>
+    <div class="testimonial">
+        <img src="/images/testimonial.png" alt="Avatar">
+        <p>"Me impresionó lo fácil que era enviar un paquete con esta paquetería. El proceso fue sencillo y el precio muy razonable".</p>
+        <h3>Julia Ramirez</h3>
+    </div>
+</section>
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <p>&copy; 2024 Proyecto Codo a Codo - Equipo 10. All rights reserved.</p>
+          </div>
+          <div class="col-md-6 text-md-right">
+            <ul class="list-inline">
+              <li class="list-inline-item">
+                <a href="https://www.facebook.com" target="_blank"><img src="/images/facebook.png" alt="Facebook"></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://twitter.com" target="_blank"><img src="/images/twitter.png" alt="Twitter"></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.instagram.com" target="_blank"><img src="/images/instagram.png" alt="Instagram"></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://web.whatsapp.com/" target="_blank"><img src="/images/whatsapp.png" alt="whatsapp web"></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+</footer>
 </body>
 </html>
