@@ -442,7 +442,7 @@ footer {
     }
 
     .card{
-        width: calc(60.333% - 40px);
+        width: calc(85.333% - 40px);
     }
 
     .section-text,
@@ -458,6 +458,7 @@ footer {
     .testimonials{
         flex-direction: column;
         align-items: center;
+        max-width: 90%;
     }
 
     .footer {
