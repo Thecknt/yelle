@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Envia tus Packetes a cualquier destino</title>
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/registro.css">
     <link rel="shortcut icon" href="/images/ico-paquete.ico">   
 </head>
 <body>
@@ -22,76 +22,69 @@
         <a href="/formRegistro.html">Contactanos</a>
     </nav>
 </header>
-    <h2>Formulario de Registro</h2>
-    <form action="link" method="post" target="_blank">
-
-        <fieldset>
-            <legend>Datos del Remitente</legend>
-        <label for="name">Nombre</label>
-        <input type="text" id="name" name="name" placeholder="">
-        <label for="name">Apellido</label>
-        <input type="text" name="name" id="name" placeholder=""><br><br>
-        <label for="number">DNI</label>
-        <input type="number" name="number" id="number" max="9" placeholder="">
-        <label for="sexo">Sexo</label>
-        <select name="sexo">
-            <option >Masculino</option>
-            <option >Femenino</option>
-            <option >No Binario</option>
-        </select>
-        <label for="date">Fecha de Nacimiento</label>
-        <input type="date"><br><br>
-        <label for="name">Correo Electrónico</label>
-        <input type="text" id="name" name="name" size="50" placeholder=""><br><br>
-        <label for="name">Direccion</label>
-        <input type="text" id="name" name="name" size="50" placeholder=""><br><br>
-        <label for="name">Codigo Postal</label>
-        <input type="text" id="name" name="name" size="10" placeholder="">
-        <label for="name">Ciudad</label>
-        <input type="text" id="name" name="name" size="30" placeholder=""><br><br>
-        <label for="name">Provincia</label>
-        <input type="text" id="name" name="name" size="30" placeholder="">
-        <label for="name">Pais</label>
-        <input type="text" id="name" name="name" size="30" placeholder=""><br><br>
-        <label for="name">Contacto</label>
-        <input type="text" id="name" name="name" size="30" placeholder="">
-        </fieldset><br><br>
-
-        <fieldset>
-        <legend>Datos del Destinatario</legend>
-        <label for="name">Nombre</label>
-        <input type="text" id="name" name="name" placeholder="">
-        <label for="name">Apellido</label>
-        <input type="text" name="name" id="name" placeholder=""><br><br>
-        <label for="number">DNI</label>
-        <input type="number" name="number" id="number" max="9" placeholder="">
-        <label for="sexo">Sexo</label>
-        <select name="sexo">
-            <option >Masculino</option>
-            <option >Femenino</option>
-            <option >No Binario</option>
-        </select>
-        <label for="date">Fecha de Nacimiento</label>
-        <input type="date"><br><br>
-        <label for="name">Correo Electrónico</label>
-        <input type="text" id="name" name="name" size="50" placeholder=""><br><br>
-        <label for="name">Direccion</label>
-        <input type="text" id="name" name="name" size="50" placeholder=""><br><br>
-        <label for="name">Codigo Postal</label>
-        <input type="text" id="name" name="name" size="10" placeholder="">
-        <label for="name">Ciudad</label>
-        <input type="text" id="name" name="name" size="30" placeholder=""><br><br>
-        <label for="name">Provincia</label>
-        <input type="text" id="name" name="name" size="30" placeholder="">
-        <label for="name">Pais</label>
-        <input type="text" id="name" name="name" size="30" placeholder=""><br><br>
-        <label for="name">Contacto</label>
-        <input type="text" id="name" name="name" size="30" placeholder="">
-        </fieldset>
-        
-        <input type="submit" value="ENVIAR">
-
+<div>
+  <h2 class="titleForm">Formulario de Registro</h2>
+</div>
+<section class="form">
+  <div class="card">
+    <form action="link" method="post" target="_blank" class="form">
+      <fieldset>
+          <legend>Datos del Remitente</legend>
+      <label for="name">Nombre y Apellido</label>
+      <input type="text" id="name" name="name" placeholder="">
+      <label for="number">DNI</label>
+      <input type="number" name="number" id="number" max="9" placeholder="">
+      <label for="name">Correo Electrónico</label>
+      <input type="text" id="name" name="name" size="50" placeholder=""><br><br>
+      <label for="name">Direccion</label>
+      <input type="text" id="name" name="name" size="50" placeholder=""><br><br>
+      <label for="name">Codigo Postal</label>
+      <input type="text" id="name" name="name" size="10" placeholder="">
+      <label for="name">Ciudad</label>
+      <input type="text" id="name" name="name" size="30" placeholder=""><br><br>
+      <label for="name">Provincia</label>
+      <input type="text" id="name" name="name" size="30" placeholder="">
+      <label for="name">Pais</label>
+      <input type="text" id="name" name="name" size="30" placeholder=""><br><br>
+      <label for="name">Contacto</label>
+      <input type="text" id="name" name="name" size="30" placeholder="">
+      </fieldset>
+      <form action="link" method="post" target="_blank"></form>
+      <input type="submit" value="ENVIAR" class="btnSend">
     </form>
+  </div>
+
+  <div class="card2">
+    <form action="">
+      <fieldset>
+      <legend>Datos del Destinatario</legend>
+      <label for="name">Nombre y Apellido</label>
+      <input type="text" id="name" name="name" placeholder="">
+      <label for="number">DNI</label>
+      <input type="number" name="number" id="number" max="9" placeholder="">
+      <label for="name">Correo Electrónico</label>
+      <input type="text" id="name" name="name" size="50" placeholder=""><br><br>
+      <label for="name">Direccion</label>
+      <input type="text" id="name" name="name" size="50" placeholder=""><br><br>
+      <label for="name">Codigo Postal</label>
+      <input type="text" id="name" name="name" size="10" placeholder="">
+      <label for="name">Ciudad</label>
+      <input type="text" id="name" name="name" size="30" placeholder=""><br><br>
+      <label for="name">Provincia</label>
+      <input type="text" id="name" name="name" size="30" placeholder="">
+      <label for="name">Pais</label>
+      <input type="text" id="name" name="name" size="30" placeholder=""><br><br>
+      <label for="name">Contacto</label>
+      <input type="text" id="name" name="name" size="30" placeholder="">
+      </fieldset>
+      
+      <input type="submit" class="btnSend"
+      value="ENVIAR">
+  </div>
+ 
+</form>
+</section>
+    
     <footer class="footer">
         <div class="container">
             <div class="row">
