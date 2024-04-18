@@ -1,4 +1,4 @@
-# Titulo del Proyecto: Codo a Codo Java
+# Titulo del Proyecto: Codo a Codo Java - Yelle plataforma de envios internacionales.
 
 **Descripción General:**
 La aplicación web de envios de paquetes es una plataforma integral que permite a los usuarios interactuar con una variedad de servicios de envios. Utiliza un conjunto de tecnologías modernas para ofrecer una experiencia segura, eficiente y agradable para nuestros clientes.
@@ -10,7 +10,7 @@ La aplicación web de envios de paquetes es una plataforma integral que permite 
 
 Esta aplicación está diseñada para ser escalable y segura, asegurando que los datos de los usuarios estén protegidos mientras proporciona una experiencia de usuario fluida y atractiva.
 
-# Project Title: Codo a Codo Java
+# Project Title: Codo a Codo Java - Yelle international shipping platform.
 
 **General Description:**
 The parcel shipping web application is a comprehensive platform that allows users to interact with a variety of shipping services. It uses a set of modern technologies to provide a secure, efficient and enjoyable experience for our customers.
