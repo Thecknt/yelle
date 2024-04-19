@@ -232,6 +232,7 @@ footer {
         padding: 10px;
         cursor: pointer;
         font-size: 24px;
+        color: white;
     }
 
     nav {
@@ -307,6 +308,7 @@ footer {
             padding: 10px;
             cursor: pointer;
             font-size: 24px;
+            color: white;
         }
     
         nav {
@@ -402,6 +404,7 @@ footer {
         padding: 10px;
         cursor: pointer;
         font-size: 24px;
+        color: white;
     }
 
     nav {
@@ -478,6 +481,7 @@ footer {
         padding: 10px;
         cursor: pointer;
         font-size: 24px;
+        color: white;
     }
 
     nav {
@@ -573,6 +577,7 @@ footer {
         padding: 10px;
         cursor: pointer;
         font-size: 24px;
+        color: white;
     }
 
     nav {
@@ -665,6 +670,7 @@ footer {
         padding: 10px;
         cursor: pointer;
         font-size: 24px;
+        color: white;
     }
 
     nav {
@@ -760,6 +766,7 @@ footer {
         padding: 10px;
         cursor: pointer;
         font-size: 24px;
+        color: white;
     }
 
     nav {
@@ -844,6 +851,7 @@ footer {
         padding: 10px;
         cursor: pointer;
         font-size: 24px;
+        color: white;
     }
 
     nav {
@@ -936,6 +944,7 @@ footer {
             padding: 10px;
             cursor: pointer;
             font-size: 24px;
+            color: white;
         }
     
         nav {
@@ -1018,101 +1027,6 @@ footer {
             margin: 10px 0;
           }
     }
-
-
-@media (max-width: 415px) {
-
-    .menu-icon {
-        display: block;
-        position: absolute;
-        top: 0;
-        right: 0;
-        padding: 10px;
-        cursor: pointer;
-        font-size: 24px;
-    }
-
-    nav {
-        display: none;
-        position: absolute;
-        top: 100%;
-        left: 0;
-        width: 100%;
-        background: #07dc3c;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        padding: 20px;
-        flex-direction: column;
-    }
-
-    nav a {
-        margin-bottom: 10px;
-    }
-
-    .sectionAbout {
-        flex-direction: column;
-        width: 100%;
-        padding-top: 110px;
-        background-position: bottom;
-    }
-
-   .sectionAbout h1 {
-        font-size: 1.5rem;
-        margin-bottom: 20px;
-        color: #2c3e50;
-        margin-right: 20%;
-    }
-
-    .aboutDescription {
-        text-align: start;
-        margin-top: 20px;
-        width: 90%;
-    }
-
-    .card-container{
-        justify-content: center;
-        display: flex;
-        flex-direction: column;
-        align-content: flex-end;
-        flex-wrap: wrap;
-    }
-
-    .containerAbout{
-        padding-top: 0;
-        font-size: smaller;
-        margin-top: 89%;
-        background-color: rgba(169, 169, 169, 0.475);
-    }
-
-    .features {
-        display: flex;
-        flex-wrap: nowrap;
-        justify-content: space-evenly;
-        flex-direction: column;
-    }
-
-
-    .section-text,
-    .section-img {
-        max-width: 100%;
-        margin-bottom: 20px;
-    }
-
-    .sucursales{
-        width: 78%;
-        margin-left: 2rem;
-        margin-top: 150%;
-    }
-
-
-    .footer {
-        flex-direction: column;
-        width: 89%;
-      }
-    
-      .footer a {
-        margin: 10px 0;
-      }
-        }
     
 
     @media (max-width: 431px) {
@@ -1125,6 +1039,7 @@ footer {
             padding: 10px;
             cursor: pointer;
             font-size: 24px;
+            color: white;
         }
     
         nav {
@@ -1219,6 +1134,7 @@ footer {
         padding: 10px;
         cursor: pointer;
         font-size: 24px;
+        color: white;
     }
 
     nav {
@@ -1288,7 +1204,7 @@ footer {
 
     .sucursales{
         width: 78%;
-        margin-left: 2rem;
+        margin-left: -3rem;
         margin-top: 150%;
     }
 
@@ -1315,6 +1231,7 @@ footer {
         padding: 10px;
         cursor: pointer;
         font-size: 24px;
+        color: white;
     }
 
     nav {
@@ -1409,6 +1326,7 @@ footer {
         padding: 10px;
         cursor: pointer;
         font-size: 24px;
+        color: white;
     }
 
     nav {
@@ -1504,6 +1422,7 @@ footer {
         padding: 10px;
         cursor: pointer;
         font-size: 24px;
+        color: white;
     }
 
     nav {
@@ -1598,6 +1517,7 @@ footer {
         padding: 10px;
         cursor: pointer;
         font-size: 24px;
+        color: white;
     }
 
     nav {
