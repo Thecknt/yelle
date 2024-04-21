@@ -24,9 +24,9 @@ This application is designed to be scalable and secure, ensuring that user data 
 
 https://enviosyelle.netlify.app/
 
-![image](https://github.com/Thecknt/yelle/assets/105386864/9c34f200-4825-48fe-9441-8c3c010cd3c1)
+![image](https://github.com/Thecknt/yelle/assets/105386864/2ddb1cbe-c1e0-4b0e-968b-ac1eec4cf447)
 
+![image](https://github.com/Thecknt/yelle/assets/105386864/4873e4a0-7d23-427a-9ed9-3729ed9a7f20)
 
-![image](https://github.com/Thecknt/yelle/assets/105386864/938ef7b2-ef68-418e-89fd-96055ae90ede)
 
 
