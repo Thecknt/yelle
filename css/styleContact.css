@@ -196,7 +196,7 @@ footer a:hover {
     position: absolute;
     top: 0;
     right: 0;
-    padding: 10px;
+    padding: 22px;
     cursor: pointer;
     font-size: 24px;
     color: white;
@@ -324,7 +324,7 @@ footer a:hover {
     position: absolute;
     top: 0;
     right: 0;
-    padding: 10px;
+    padding: 26px;
     cursor: pointer;
     font-size: 24px;
     color: white;
@@ -452,7 +452,7 @@ footer a:hover {
     position: absolute;
     top: 0;
     right: 0;
-    padding: 10px;
+    padding: 22px 13px 0 0;
     cursor: pointer;
     font-size: 24px;
     color: white;
@@ -499,11 +499,11 @@ footer a:hover {
   }
 
   .contactate {
-    padding-top: 235px;
+    padding-top: 269px;
     text-align: center;
     color: #112e04;
     text-transform: uppercase;
-    font-size: 50px;
+    font-size: 25px;
     line-height: 200px;
     font-weight: 200;
   }
@@ -522,7 +522,7 @@ footer a:hover {
 
   .form-contact {
     background: #f1f1f1;
-    padding: 70px 0 70px 0;
+    padding: 0 0 70px 0;
   }
 
   .form-contact p {
@@ -580,7 +580,7 @@ footer a:hover {
       position: absolute;
       top: 0;
       right: 0;
-      padding: 10px;
+      padding: 22px 20px 0 0;
       cursor: pointer;
       font-size: 24px;
       color: white;
@@ -627,11 +627,11 @@ footer a:hover {
     }
 
     .contactate {
-      padding-top: 256px;
+      padding-top: 269px;
       text-align: center;
       color: #112e04;
       text-transform: uppercase;
-      font-size: 30px;
+      font-size: 25px;
       line-height: 200px;
       font-weight: 200;
     }
@@ -650,7 +650,7 @@ footer a:hover {
 
     .form-contact {
       background: #f1f1f1;
-      padding: 70px 0 70px 0;
+      padding: 0 0 70px 0;
     }
 
     .form-contact p {
@@ -710,7 +710,7 @@ footer a:hover {
       position: absolute;
       top: 0;
       right: 0;
-      padding: 10px;
+      padding: 23px;
       cursor: pointer;
       font-size: 24px;
       color: white;
@@ -757,11 +757,11 @@ footer a:hover {
     }
 
     .contactate {
-      padding-top: 256px;
+      padding-top: 272px;
       text-align: center;
       color: #112e04;
       text-transform: uppercase;
-      font-size: 26px;
+      font-size: 22px;
       line-height: 200px;
       font-weight: 200;
     }
@@ -780,7 +780,7 @@ footer a:hover {
 
     .form-contact {
       background: #f1f1f1;
-      padding: 70px 0 70px 0;
+      padding: 0 0 70px 0;
     }
 
     .form-contact p {
