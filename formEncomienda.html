@@ -13,6 +13,7 @@
     <meta property="og:image" content="https://enviosyelle.netlify.app/" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet"/>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   </head>
   <body>
     <header class="nav">
@@ -60,7 +61,7 @@
         <input type="radio" name="pago" value="origen"checkbox>Origen
         <input type="radio" name="pago" value="destino"checkbox>Destino
         </fieldset><br><br>
-        <input type="submit" value="ENVIAR">
+        <input type="submit" id="formEncomienda" value="ENVIAR">
     </form>
     <footer class="footer">
         <div class="container">
@@ -87,5 +88,6 @@
             </div>
           </div>
     </footer>
+    <script src="/js/formEncomienda.js"></script>
     </body>
 </html>
