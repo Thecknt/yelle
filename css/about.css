@@ -221,6 +221,8 @@ footer {
   }
 
 
+
+  /*
   @media (max-width: 1500px) {
 
     .menu-icon {
@@ -468,9 +470,11 @@ footer {
       }
 }
 
+*/
 
 
-  @media (max-width: 1025px) {
+
+@media (max-width: 1024px) {
 
     .menu-icon {
         display: block;
@@ -753,7 +757,7 @@ footer {
       .footer a {
         margin: 10px 0;
       }
-    }
+}
 
 
 @media (max-width: 672px) {
@@ -932,7 +936,7 @@ footer {
       .footer a {
         margin: 10px 0;
       }
-    }
+}
 
     @media (max-width: 541px) {
 
