@@ -1,22 +1,21 @@
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 16px;
     line-height: 1.5;
     font-weight: 400;
     color: #211e1e;
-    background-color:#f1f1f1;
-}
-
-.container {
+    background-color: #f1f1f1;
+  }
+  
+  .container {
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
     width: 100%;
-}
-
-
-.nav {
+  }
+  
+  .nav {
     background-color: #7200eb;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     padding: 0;
@@ -29,30 +28,30 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-
-.nav a {
+  }
+  
+  .nav a {
     color: white;
     text-decoration: none;
     margin-right: 20px;
     font-weight: 700;
-}
-
-.menu-icon {
+  }
+  
+  .menu-icon {
     display: none;
-}
-
-#menu-toggle {
+  }
+  
+  #menu-toggle {
     display: none;
-}
-
-#menu-toggle:checked ~ nav {
+  }
+  
+  #menu-toggle:checked ~ nav {
     display: block;
-}
-
-.nav a:hover {
+  }
+  
+  .nav a:hover {
     color: #07dc3c;
-}
+  }
 
 .title {
     font-size: 18px;
@@ -83,9 +82,6 @@ body {
     margin-left: 17px;
 }
 
-.barNav{
-    display: flex;
-}
 
 .registroContainer{
     display: flex;
