@@ -243,6 +243,15 @@ body {
     margin-bottom: 0;
   }
 
+.dolar {
+    border-radius: 9px;
+  	box-shadow: 0 3px 12px rgba(0, 0, 0, 2.1);
+    margin: 30px;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+}   
+
 .testimonials {
     background-color: #f1f1f1;
     padding: 20px;

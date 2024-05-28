@@ -119,6 +119,11 @@
       </div>
     </section>
 
+    <section class="dolar">
+      <p >Precio del Dolar cripto hoy : $ <span id="dolar_hoy">0</span></p>
+      <p >Ejemplo envío en avion de $5000, en dolar cripto oficial hoy: USD <span id="precio_dolar">0</span></p>
+    </section>
+    
     <section class="testimonials">
       <div class="testimonial">
         <img src="/images/testimonial.png" alt="Avatar" />
@@ -173,5 +178,25 @@
       </div>
     </footer>
     <script src="./js/registroLogin.js"></script>
+    <script>
+      /*----------- funcion para acceder a la API -----------------*/
+      function convertir_dolar(dolar_hoy, pesos, precio_dolar) {
+        fetch("https://dolarapi.com/v1/dolares/cripto")
+          .then(response => response.json())
+          .then(data => {
+            console.log(data);    
+            let dolar = data['venta'];
+            let precio = pesos / dolar;
+            precio = precio.toFixed(2);
+            dolar = dolar.toFixed(2);
+            var v_hoy = document.getElementById(dolar_hoy);
+            v_hoy.innerHTML = dolar;
+            var v_pre = document.getElementById(precio_dolar);
+            v_pre.innerHTML = precio;});
+          };
+    
+      /*----- se llama a la funcion con $2000 y los ID de span "dolar_hoy" y "precio dolar" -----------------*/
+      convertir_dolar("dolar_hoy", 5000, "precio_dolar");
+    </script>
   </body>
 </html>
