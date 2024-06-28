@@ -223,29 +223,6 @@ footer {
 
   @media (max-width: 1500px) {
 
-    .menu-icon {
-        display: block;
-        position: absolute;
-        top: 0;
-        right: 0;
-        padding: 10px;
-        cursor: pointer;
-        font-size: 24px;
-        color: white;
-    }
-
-    nav {
-        display: none;
-        position: absolute;
-        top: 100%;
-        left: 0;
-        width: 100%;
-        background: #7200eb;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        padding: 20px;
-        flex-direction: column;
-    }
-
     nav a {
         margin-bottom: 10px;
     }
@@ -253,6 +230,7 @@ footer {
     .sectionAbout {
         flex-direction: column;
         width: 120%;
+        height: 179px;
     }
 
     .containerAbout {
@@ -296,31 +274,17 @@ footer {
 
     }
 
+    @media (max-width: 1300px){
+        .sectionAbout {
+            flex-direction: column;
+            width: 100%;
+            padding-top: 523px;
+            background-position: bottom;
+        }
+    }
+
 
     @media (max-width: 1285px) {
-
-        .menu-icon {
-            display: block;
-            position: absolute;
-            top: 0;
-            right: 0;
-            padding: 27px;
-            cursor: pointer;
-            font-size: 24px;
-            color: white;
-        }
-    
-        nav {
-            display: none;
-            position: absolute;
-            top: 100%;
-            left: 0;
-            width: 100%;
-            background: #7200eb;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-            padding: 20px;
-            flex-direction: column;
-        }
     
         nav a {
             margin-bottom: 10px;
@@ -394,29 +358,6 @@ footer {
 
   
   @media (max-width: 1160px) {
-
-    .menu-icon {
-        display: block;
-        position: absolute;
-        top: 0;
-        right: 0;
-        padding: 23px;
-        cursor: pointer;
-        font-size: 24px;
-        color: white;
-    }
-
-    nav {
-        display: none;
-        position: absolute;
-        top: 100%;
-        left: 0;
-        width: 100%;
-        background: #7200eb;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        padding: 20px;
-        flex-direction: column;
-    }
 
     nav a {
         margin-bottom: 10px;
@@ -504,6 +445,7 @@ footer {
         width: 100%;
         padding-top: 391px;
         background-position: bottom;
+        height: 57px;
     }
 
    .sectionAbout h1 {
@@ -818,7 +760,7 @@ footer {
         flex-wrap: wrap;
         align-content: center;
         flex-direction: column;
-        margin-left: 4rem;
+        margin-left: -2rem;
     }
 
     .section-text,
@@ -993,7 +935,7 @@ footer {
     
         .containerAbout{
             font-size: smaller;
-            margin-top: 51%;
+            margin-top: 69%;
             background-color: rgba(169, 169, 169, 0.475);
         }
     
@@ -1014,7 +956,7 @@ footer {
         .sucursales{
             width: 78%;
             margin-left: -2rem;
-            margin-top: 81%;
+            margin-top: 96%;
         }
     
     
