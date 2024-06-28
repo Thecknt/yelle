@@ -25,7 +25,6 @@
         <a href="/index.html">Inicio</a>
         <a href="/about.html">Quienes somos</a>
         <a href="/contacto.html">Contactanos</a>
-        <a href="/codigoPostal.html">consulta tu codigo Postal</a>
         <a href="/login.html">Iniciar sesión</a>   
       </nav>
     </header>
@@ -119,6 +118,11 @@
       </div>
     </section>
 
+    <section class="dolar">
+      <p >Precio del Dolar cripto hoy : $ <span id="dolar_hoy">0</span></p>
+      <p >Ejemplo envío en avion de $5000, en dolar cripto oficial hoy: USD <span id="precio_dolar">0</span></p>
+    </section>
+    
     <section class="testimonials">
       <div class="testimonial">
         <img src="/images/testimonial.png" alt="Avatar" />
@@ -173,5 +177,10 @@
       </div>
     </footer>
     <script src="./js/registroLogin.js"></script>
+    <script src="./js/apiDolar.js"></script>
+    <script>
+      /*----- se llama a la funcion con $5000 y los ID de span "dolar_hoy" y "precio dolar" -----------------*/
+      convertir_dolar("dolar_hoy", 5000, "precio_dolar");
+    </script>
   </body>
 </html>
