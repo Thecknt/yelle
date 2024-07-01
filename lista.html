@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Envia tus Packetes a cualquier destino</title>
+    <link rel="stylesheet" href="/css/lista.css">
+    <link rel="shortcut icon" href="/images/ico-paquete.ico">   
+</head>
+<body>
+    <header class="nav">
+        <div class="title">
+          <a href="index.html"><img src="/images/YelleNav.png" alt="Icono" /></a>
+        </div>
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="menu-icon">&#9776;</label>
+        <nav>
+            <a href="/index.html">Inicio</a>
+            <a href="/about.html">Quienes somos</a>
+            <a href="/contacto.html">Contactanos</a>
+            <a href="/login.html">Iniciar sesión</a>
+        </nav>
+    </header>
+    <div class="container">
+        <h2>Lista de Usuarios</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Email</th>
+                    <th>Apellido</th>
+                    <th>Nombre</th>
+                    <th>Localidad</th>
+                    <th>Provincia</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr th:each="user : ${users}">
+                    <td th:text="${user.iduser}"></td>
+                    <td th:text="${user.email}"></td>
+                    <td th:text="${user.lastname}"></td>
+                    <td th:text="${user.name}"></td>
+                    <td th:text="${user.location}"></td>
+                    <td th:text="${user.province}"></td>
+                    <td>
+                        <button class="btn btn-editar">Editar</button>
+                        <button class="btn btn-borrar">Borrar</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+        
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+              <div class="col-md-6">
+                <p>&copy; 2024 Proyecto Codo a Codo - Equipo 10.</p>
+                <p>All rights reserved.</p>
+              </div>
+              <div class="col-md-6 text-md-right">
+                <ul class="list-inline">
+                  <li class="list-inline-item">
+                    <a href="https://www.facebook.com" target="_blank"><img src="/images/facebook.png" alt="Facebook"></a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="https://twitter.com" target="_blank"><img src="/images/twitter.png" alt="Twitter"></a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="https://www.instagram.com" target="_blank"><img src="/images/instagram.png" alt="Instagram"></a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="https://web.whatsapp.com/" target="_blank"><img src="/images/whatsapp.png" alt="whatsapp web"></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+    </footer>
+</body>
+</html>
